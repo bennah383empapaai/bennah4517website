@@ -1,0 +1,73 @@
+        html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Tourism Management System</title>
+</head>
+<body>
+<h1>welcome to Bliss Online Tourism Managemet System</H1>
+<h2>login</h2>
+<form action="login.php"method="post">
+<label for="username">sirname:</label>
+<input type="text" id="username
+name="sirname"><br>
+<label
+for="password">password:</label>
+<input type="password"
+id="password"
+name="password"><br>
+<input type="submit"
+value="login">
+</form>
+<h2>Registration</h2>
+<form action="register.php"
+method="post">
+<label
+for="newusername">sirname:</label>
+<input type="text"
+id="newusername"
+name="sirname"><br>
+<label
+for="newpassword">password:</label><input type="password"
+id="newpassword"
+name="newpassword"><br>
+<label
+for="email">email:</label>
+<input type="email"
+id="email"
+name="email"><br>
+<input type="submit">
+value="register">
+</form>
+<h2>make payment</h2>
+<form action="paymet.php"
+method="post">
+<label
+for="cardnumber">cardnumber:</label>
+<input type="text"
+id="cardnumber"><br>
+<label
+for="expirydate">expirydate:</label>
+<input type="text"id="expirydate"><br>
+<label
+for="ccv">cvv:</label>
+<input type="text"id="cvv"name="cvv"><br>
+<input type="submit"value="make payment">
+</form>
+<h2>Generate Report</h2>
+<form action="report.php"
+method="post">
+<label for="startdate">startdate:</label>
+<input type="date"
+id="startdate"
+name="startdate"><br>
+<label for="enddate">enddate:</label>
+<input type="date"
+id="enddate"
+name="enddate"><br>
+<input type="submit"
+value="Generate Report">
+</form>
+</body>
+</html>
+
